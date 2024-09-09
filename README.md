@@ -16,16 +16,21 @@
     cd backend/
     cd VerstaWeb
     docker-compose up -d  
+    ```
+3.  Примените миграции:
+
+    ```bash
+    dotnet ef database update
     ```  
 
-3. Запустите сервер приложения:
+4. Запустите сервер приложения:
 
     ```bash
     cd VerstaWeb
     dotnet run --launch-profile "https"
     ```
 
-6. Запустить фронтенд приложения:
+5. Запустить фронтенд приложения:
     ```bash
     cd -
     npm install
