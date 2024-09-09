@@ -35,7 +35,7 @@
     ```
 
 После запуска приложения, оно будет доступно по адресам:
-Swagger документация Backend: `[https://localhost:7235/swagger/index.html`.
+Swagger документация Backend: `[https://localhost:7235/swagger/index.html`.  
 Frontend: `http://localhost:3000`
 
 
